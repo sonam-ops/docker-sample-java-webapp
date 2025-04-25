@@ -23,7 +23,7 @@
  
  stage('checkout-stage') {
                 steps {
-                    git branch: 'master', url: 'https://github.com/Divyamarathi/docker-sample-java-webapp.git'
+                    git branch: 'master', url: 'https://github.com/sonam-ops/docker-sample-java-webapp.git'
                 }
             }
  
